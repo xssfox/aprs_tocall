@@ -22,7 +22,7 @@ class Parser():
         for matching_call in self.data['tocalls']: # loop through all calls in tocalls.txt
             matcher = matching_call['tocall']
             matcher = matcher.replace("?",'\w')
-            matcher = matcher.replace("n",'\w')
+            matcher = matcher.replace("n",'\d')
             matcher = matcher.replace("*",'\w')
             if re.match(matcher, call):
                 matched = matching_call
