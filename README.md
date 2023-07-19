@@ -26,3 +26,14 @@ tocalls.lookup("APWEEA")
 #   'os': 'Linux/Unix'
 # }
 ```
+
+Command line
+--
+
+```sh
+% python3 -m aprs_tocall APTTAA
+tocall=APTT*
+vendor=Byonics
+model=TinyTrak
+class=tracker
+```
