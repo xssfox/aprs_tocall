@@ -11,6 +11,7 @@ class Parser():
         else:
             stream = urllib.request.urlopen('https://raw.githubusercontent.com/aprsorg/aprs-deviceid/main/tocalls.yaml')
         self.data = yaml.safe_load(stream)
+        stream.close()
     def return_data(self, data): # so we can format data in a standard way
         del data['specific_count']
         return data   

@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "aprs_tocall"
-version = "0.1.1"
+version = "0.1.2"
 description = "Parses APRS \"tocalls\" or tocalls.txt / tocalls.yaml easily in Python"
 authors = ["xss <michaela@michaela.lgbt>"]
 license = "WTFPL"
